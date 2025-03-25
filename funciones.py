@@ -42,3 +42,12 @@ def mostrar_info(**informacion):
     print(informacion["ciudad"])  
 
 mostrar_info(nombre="Nay", edad=24, ciudad="Disney")
+
+#LIST COMPREHESION
+pares = [x for x in range(10) if x % 2 == 0]  
+print(pares)
+
+original = [1, 2, 3, 4, 5]
+nueva_lista = [numero for numero in original]  
+
+print(nueva_lista)
