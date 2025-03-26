@@ -90,7 +90,6 @@ elif answer3 == 4:
 else:
     print("Venga que solo falta una")
 
-# Determinar la casa con mayor puntuación
 print("\n🏰 El Sombrero Seleccionador ha decidido... 🏰")
 if gryffindor >= ravenclaw and gryffindor >= hufflepuff and gryffindor >= slytherin:
     print("🦁 ¡GRYFFINDOR! 🔥")
