@@ -1,4 +1,4 @@
-from pathlib import Path, PosixPath, WindowsPath
+from pathlib import Path, PosixPath, WindowsPath # type: ignore
 
 # Declarar rutas concretas
 
@@ -161,4 +161,4 @@ Path('MiEnlace').symlink_to('imagen.png')
 
 # Borrar un archivo o un enlace simbólico
 
-Path('imagen.png').unlink()
+Path('imagen.png').unlink() # type: ignore
