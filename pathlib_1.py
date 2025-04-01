@@ -1,4 +1,4 @@
-from pathlib import Path, PosixPath, WindowsPath # type: ignore
+from pathlib import Path, PosixPath, WindowsPath
 
 # Declarar rutas concretas
 
